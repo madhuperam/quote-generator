@@ -67,8 +67,8 @@ class App extends React.Component{
             - Albert Einstein
           </div>
           <div id="buttons">
-            <button className="btn btn-default buttons posts"><i className="fab fa-twitter"/><a href="#" id="tweet-quote"></a></button>
-            <button className="btn btn-default buttons posts"><i className="fab fa-facebook"/><a href="#" id="tweet-quote"></a></button>
+            <a href="https://twitter.com/intent/tweet" id="tweet-quote" target="_blank"><button className="btn btn-default buttons posts"><i className="fab fa-twitter"/></button></a>
+            <a href="https://facebook.com/" id="post-quote" target="_blank"><button className="btn btn-default buttons posts"><i className="fab fa-facebook"/></button></a>
             <button id="new-quote" className="btn btn-default buttons" onClick={this.setRandomColor}>New quote</button>
           </div>
         </div>
