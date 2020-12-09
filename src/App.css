@@ -3,6 +3,13 @@
 body{
   background-color: #5E9CB9;
   font-family: 'Raleway', sans-serif;
+  color: #5E9CB9
+}
+
+i{
+  display: inline;
+  font-size: 25px;
+  margin-right: 10px;
 }
 
 .App {
@@ -58,8 +65,13 @@ body{
   margin: 20px 10px 10px;
 }
 
+#text-box{
+  display: inline-block;
+}
+
 #text{
   font-size: 25px;
+  display: inline;
 }
 
 #quote-box{

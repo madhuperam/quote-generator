@@ -50,6 +50,7 @@ class App extends React.Component{
     }
     this.getRandomQuote();
     document.body.style.background = color;
+    document.body.style.color = color;
     var btns = document.getElementsByClassName("buttons");
     for(var i=0;i<btns.length;i++){
       btns[i].style.background = color;
@@ -60,8 +61,9 @@ class App extends React.Component{
       <div className="App">
       <div id="quote-box">
         <div className="content">
-          <div id="text">
-            A person who never made a mistake never tried anything new.
+
+          <div id="text-box">
+            <i className="fas fa-quote-left" /><p id="text">A person who never made a mistake never tried anything new.</p>
           </div>
           <div id="author">
             - Albert Einstein
